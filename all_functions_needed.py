@@ -105,6 +105,7 @@ def add_section_head(doc, section_name):
     title_para.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
     doc.add_page_break()
 
+
 # Function to add non-section head subfolder information
 def add_subfolder_info(doc, subfolder_list):
     if subfolder_list:
@@ -125,6 +126,7 @@ def add_file_info_and_content(doc, file_name, file_content):
     # Add new line characters until the next page
     while not doc.add_paragraph("").runs:
         pass
+
 
 # Function to process a folder and its contents
 def process_folder(doc, folder_path, top_level_folder):
