@@ -1,0 +1,9 @@
+1. Read contents in current folder
+2. If the current item is a folder:
+- If the current item is 1 level below the top level folder, its name should be a title at the center of the page, font size 72, any professional font style. I will refer to this folder's name as the "section head" from now on. 
+- Otherwise, all sub folders and further subfolders must only be mentioned in a sentence, along the lines of, "<Section Head> also contains the following folders: <folder1>, <folder2>, <folder3>" and so on.
+
+3. Else, if the current item is a file:
+- The file name must be a heading on the page, of font size 26, font style Arial. 
+- The file contents must follow the title, and at the end of the file contents, the pointer must append new line characters until we reach the next page. Then, we proceed to the next item in the folder.
+- Note that for the content itself, they must be font size 12, font style consolas.  
