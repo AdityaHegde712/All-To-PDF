@@ -1,4 +1,4 @@
-# All-To-PDF
+# All-To-PDF - A Lab Report creator for college computer science students
 **Features**:
 * Read through folders and subfolders for files, add them to a pdf document.
 * Top folder will be the name of the PDF
