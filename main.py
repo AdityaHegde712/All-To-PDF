@@ -10,13 +10,12 @@ def main():
     folder = input("Enter the top-level folder name: ")
 
     # Create a new document
-    doc = create_document(folder)
+    doc1 = create_document(folder)
 
     # Process the top-level folder and its contents
-    process_folder(doc, folder)
+    process_folder(doc=doc1, top_level_folder=folder)
 
     # Save the document
-    doc.save(f"{folder}.docx")
     print(f"Document '{folder}.docx' created.")
 
 if __name__ == "__main__":
