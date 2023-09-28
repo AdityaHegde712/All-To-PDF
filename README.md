@@ -1,3 +1,5 @@
+# Project currently on hold due to other projects going on, will be continued in future
+
 # All-To-PDF - A Lab Report creator for college computer science students
 **Features**:
 * Read through folders and subfolders for files, add them to a pdf document.
